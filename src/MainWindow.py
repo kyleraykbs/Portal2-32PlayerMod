@@ -297,7 +297,7 @@ def RefreshPlayersMenu():
         isasync = False
 
     class CurSteamID:
-        text = "SteamID: " + PlayerKey["steamid"]
+        text = "SteamID64: " + PlayerKey["steamid"]
         activecolor = (255, 255, 120)
         inactivecolor = (155, 155, 155)
         sizemult = 1
